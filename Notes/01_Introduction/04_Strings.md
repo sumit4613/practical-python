@@ -42,7 +42,7 @@ directly at the keyboard.  Here are some common escape codes:
 '\t'      Tab
 '\''      Literal single quote
 '\"'      Literal double quote
-'\\'`     Literal backslash
+'\\'      Literal backslash
 ```
 
 ### String Representation
@@ -54,7 +54,7 @@ an integer.  You can specify an exact code-point value using the following escap
 a = '\xf1'          # a = 'ñ'
 b = '\u2200'        # b = '∀'
 c = '\U0001D122'    # c = '𝄢'
-d = '\N{FORALL}'    # d = '∀'
+d = '\N{FOR ALL}'   # d = '∀'
 ```
 
 The [Unicode Character Database](https://unicode.org/charts) is a reference for all
@@ -77,7 +77,7 @@ You can also slice or select substrings specifying a range of indices with `:`.
 ```python
 d = a[:5]     # 'Hello'
 e = a[6:]     # 'world'
-f = a[3:8]    # 'lowo'
+f = a[3:8]    # 'lo wo'
 g = a[-5:]    # 'world'
 ```
 

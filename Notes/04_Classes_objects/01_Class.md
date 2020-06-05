@@ -43,8 +43,8 @@ class Player:
         self.health = 100
 
     def move(self, dx, dy):
-        self.dx += dx
-        self.dy += dy
+        self.x += dx
+        self.y += dy
 
     def damage(self, pts):
         self.health -= pts
@@ -262,7 +262,7 @@ dictionaries. Then compute the total cost:
 >>> sum([s.cost() for s in portfolio])
 44671.15
 >>>
-----
+```
 
 ### Exercise 4.4: Using your class
 

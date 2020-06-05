@@ -84,7 +84,7 @@ Be aware that floating point numbers are inexact when representing decimals.
 
 ```python
 >>> a = 2.1 + 4.2
->>> a === 6.3
+>>> a == 6.3
 False
 >>> a
 6.300000000000001
@@ -163,7 +163,7 @@ Try it out.
 3
 >>> b = '3.14159' # It also works with strings containing numbers
 >>> float(b)
-3.15159
+3.14159
 >>>
 ```
 
